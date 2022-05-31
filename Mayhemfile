@@ -1,0 +1,5 @@
+project: rnshah9/verible
+target: verible-patch-tool
+
+cmds:
+  - cmd: /repo/bazel-bin/common/tools/verible-patch-tool apply-pick @@
