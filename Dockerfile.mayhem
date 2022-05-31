@@ -11,4 +11,5 @@ RUN apt update && apt install -y bazel
 
 COPY . /repo
 WORKDIR /repo
+ENV GIT_VERSION=foo
 RUN bazel build //common/tools:verible-patch-tool
