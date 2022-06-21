@@ -1,4 +1,4 @@
-project: rnshah9/verible
+project: verible
 target: verible-patch-tool
 
 cmds:
